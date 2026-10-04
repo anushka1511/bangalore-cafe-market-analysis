@@ -1,4 +1,4 @@
-# Where Should Bangalore's Next Specialty Café Open?
+# Grounds for Expansion: Where Should Bangalore's Next Specialty Café Open?
 **A data-driven site-selection analysis, validated against real expansion and closure decisions by Blue Tokai and Third Wave Coffee.**
 
 ---
