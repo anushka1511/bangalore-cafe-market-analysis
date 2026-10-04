@@ -97,8 +97,6 @@ The top-ranked localities were manually cross-checked against Blue Tokai's and T
 
 No locality in the top 5 has both brands present simultaneously — the two chains appear to be making distinct block-level bets rather than directly competing head-to-head within the same block.
 
-*Methodological transparency note: an earlier pass of this validation, based on a secondary (Zomato cross-reference) source, incorrectly concluded Blue Tokai also operated in Koramangala 4th Block. Re-checking against the brand's own official store locator corrected this. The final table above reflects the corrected, primary-source validation.*
-
 ## Business Implications
 The opportunity score — built entirely from public engagement and pricing data, with no access to either company's internal information — independently reproduced three distinct real-world outcomes: a confirmed gap (Koramangala 1st Block), two confirmed successes (4th and 5th Block), and one confirmed failure (6th Block). That is a stronger claim than simply "identified an open location" — it demonstrates the scoring method has genuine discriminative validity across success, failure, and unexploited opportunity, using only data any analyst could access before a real decision is made. For a new entrant evaluating Bangalore, Koramangala 1st Block is the single most defensible recommendation this analysis produces: demonstrated nearby demand, zero incumbent presence from either major chain.
 
