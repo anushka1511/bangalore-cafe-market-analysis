@@ -24,10 +24,9 @@ India's specialty coffee category is in the middle of a real, fast-moving expans
 ## Business Problem
 **If a specialty café brand were deciding where to open its next Bangalore outlet, which localities show genuine unmet demand — strong existing customer engagement with cafés in the area, but no entrenched premium-tier competitor — versus which are already contested or saturated?**
 
-This is framed as a real expansion decision, not an open-ended data exploration, because that's the only way the output is actually checkable: a real site-selection recommendation can be validated against what companies with far better information than this dataset actually chose to do.
-
 ## Data Source
 **Zomato Bangalore Restaurants** (Kaggle, ~51,700 listings, 17 columns), supplemented with manual cross-referencing against Blue Tokai's and Third Wave Coffee's official store locators as of October 2026.
+Dataset Link: https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants?resource=download
 
 Relevant columns used: `name`, `location`, `rest_type`, `cuisines`, `rate`, `votes`, `approx_cost(for two people)`.
 
@@ -51,7 +50,7 @@ For every locality with at least 5 café listings (a minimum sample-size thresho
 - **`opportunity_score = demand_intensity × (1 − pct_premium)`** — high when a locality has strong demonstrated engagement with cafés *and* a thin premium offering relative to that demand. A locality with zero cafés and zero votes scores near zero by this formula, deliberately — absence of competition alone is not treated as evidence of opportunity, only genuine demand with an underserved premium tier is.
 
 ### 5. Real-world validation
-The top-ranked localities were manually cross-checked against Blue Tokai's and Third Wave Coffee's official store locator pages (current as of this analysis) to see whether the data-driven ranking lined up with, diverged from, or predicted real-world outcomes — including one case (Koramangala 6th Block) where a real outlet had since closed, giving a genuine "did the model flag the weak location correctly" test case rather than only a "did it find an open one" test.
+The top-ranked localities were manually cross-checked against Blue Tokai's and Third Wave Coffee's official store locator pages (current as of this analysis) to see whether the data-driven ranking lined up with, diverged from, or predicted real-world outcomes — including one case (Koramangala 6th Block) where a real outlet had since closed, becoming a genuine "did the model flag the weak location correctly" test case rather than a "did it find an open one" test.
 
 ## Tech Stack
 - **Python** (pandas for data manipulation, matplotlib for visualization)
